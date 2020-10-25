@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="funcao.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Formulário -->
+  <form>
+    <div>
+      <label for="nota1">Nota 1</label>
+      <input type="number" class="nota" name="nota1" id="nota1">
+    </div>
+    <div>
+      <label for="nota2">Nota 2</label>
+      <input type="number" class="nota" name="nota2" id="nota2">
+    </div>
+    <div>
+      <label for="nota3">Nota 3</label>
+      <input type="number" class="nota" name="nota3" id="nota3">
+    </div>
+    <div>
+      <label for="nota4">Nota 4</label>
+      <input type="number" class="nota" name="nota4" id="nota4">
+    </div>
+    <div>
+      <label for="nota5">Nota 5</label>
+      <input type="number" class="nota" name="nota5" id="nota5">
+    </div>
+    <div class="button">
+      <button type="button" onclick="notasAlunos()">Enviar</button>
+    </div>
+  </form>
+
+  <!-- Tabela de resultados -->
+  <table>
+    <tr>
+      <td>Colocação</td>
+      <td> Notas</td>
+    </tr>
+    <tr>
+      <td>1º Colocado</td>
+      <td id="primeiroColocado"></td>
+    </tr>
+    <tr>
+      <td>2º Colocado</td>
+      <td id="segundoColocado"></td>
+    </tr>
+    <tr>
+      <td>3º Colocado</td>
+      <td id="terceiroColocado"></td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
